@@ -1,0 +1,4 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.CQRS.Bus\obj\Debug\Context.CQRS.Bus.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.CQRS.Bus\obj\Debug\Context.CQRS.Bus.csproj.CoreCompileInputs.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.CQRS.Bus\obj\Debug\F2C.MAP.NOT.Context.CQRS.Bus.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.CQRS.Bus\obj\Debug\F2C.MAP.NOT.Context.CQRS.Bus.pdb

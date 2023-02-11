@@ -1,0 +1,6 @@
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Common\bin\Debug\F2C.MAP.NOT.Context.Common.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Common\bin\Debug\F2C.MAP.NOT.Context.Common.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Common\obj\Debug\F2C.MAP.NOT.Context.Common.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Common\obj\Debug\F2C.MAP.NOT.Context.Common.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Common\bin\Debug\log4net.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Common\bin\Debug\log4net.xml

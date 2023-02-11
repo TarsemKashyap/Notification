@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Example.Notific.Context.Contract.CQRS.Exceptions
+{
+    public class EventTypeNotFoundException :Exception
+    {
+        #region Ctors
+
+        public EventTypeNotFoundException(string exception)
+            : base(exception)
+        {
+        }
+        #endregion
+    }
+}

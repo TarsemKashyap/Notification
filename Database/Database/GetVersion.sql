@@ -1,0 +1,1 @@
+select Value = dbo.GetNotDatabaseVersion() 

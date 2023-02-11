@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B437933-A5DB-4E0D-B3DC-57B082E56B47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>F2C.MAP.NOT.Database</RootNamespace>
+    <AssemblyName>F2C.MAP.NOT.Database</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Dev|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA|AnyCPU'">
+    <OutputPath>bin\QA\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UAT|AnyCPU'">
+    <OutputPath>bin\UAT\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="F2CSqlRunner, Version=6.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\F2C.Common.SqlRunner.1.1.0.0\lib\net45\F2CSqlRunner.exe</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.14.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.4\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.ConnectionUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=f4ca07f51760da93, processorArchitecture=MSIL">
+      <HintPath>..\packages\F2C.Common.SqlRunner.1.1.0.0\lib\net45\Microsoft.Data.ConnectionUI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.ConnectionUI.Dialog, Version=0.0.0.0, Culture=neutral, PublicKeyToken=f4ca07f51760da93, processorArchitecture=MSIL">
+      <HintPath>..\packages\F2C.Common.SqlRunner.1.1.0.0\lib\net45\Microsoft.Data.ConnectionUI.Dialog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NotificationDatabase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Database\GetVersion.sql" />
+    <EmbeddedResource Include="Database\InsertVersion.sql" />
+    <EmbeddedResource Include="Database\UpdateVersion.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F2CSqlRunner.exe.Debug.config">
+      <DependentUpon>F2CSqlRunner.exe.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="F2CSqlRunner.exe.Dev.config">
+      <DependentUpon>F2CSqlRunner.exe.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="F2CSqlRunner.exe.QA.config">
+      <DependentUpon>F2CSqlRunner.exe.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="F2CSqlRunner.exe.Release.config">
+      <DependentUpon>F2CSqlRunner.exe.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="F2CSqlRunner.exe.UAT.config">
+      <DependentUpon>F2CSqlRunner.exe.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="F2CSqlRunner.exe.config">
+      <TransformOnBuild>true</TransformOnBuild>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\v2.0\001 ALTER TABLE Merchant_Configuration ADD COLUMN Verification_Method 2.0.001.sql" />
+    <Content Include="Scripts\v2.0\002 ALTER TABLE Merchant_Configuration_History ADD COLUMN Verification_Method 2.0.002.sql" />
+    <EmbeddedResource Include="Scripts\v1.0\003 CREATE TABLE Merchant_Configuration_History 1.0.0.3.sql" />
+    <EmbeddedResource Include="Scripts\v1.0\004 CREATE TABLE Subscription 1.0.0.4.sql" />
+    <EmbeddedResource Include="Scripts\v1.0\005 CREATE TABLE Notification 1.0.0.5.sql" />
+    <EmbeddedResource Include="Scripts\v1.0\006 CREATE TABLE Notification_Delivery_Attempt 1.0.0.6.sql" />
+    <EmbeddedResource Include="Scripts\v1.0\002 CREATE TABLE Merchant_Configuration 1.0.0.2.sql" />
+    <EmbeddedResource Include="Scripts\v1.0\001 CREATE TABLE Event 1.0.0.1.sql" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <UsingTask TaskName="TransformXml" AssemblyFile="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Web\Microsoft.Web.Publishing.Tasks.dll" />
+  <Target Name="AfterCompile" Condition="Exists('F2CSqlRunner.exe.$(Configuration).config')">
+    <!--Generate transformed app config in the intermediate directory-->
+    <TransformXml Source="F2CSqlRunner.exe.config" Destination="$(IntermediateOutputPath)F2CSqlRunner.exe.config" Transform="F2CSqlRunner.exe.$(Configuration).config" />
+    <!--Force build process to use the transformed configuration file from now on.-->
+    <ItemGroup>
+      <AppConfigWithTargetPath Remove="F2CSqlRunner.exe.config" />
+      <AppConfigWithTargetPath Include="$(IntermediateOutputPath)F2CSqlRunner.exe.config">
+        <TargetPath>F2CSqlRunner.exe.config</TargetPath>
+      </AppConfigWithTargetPath>
+    </ItemGroup>
+  </Target>
+  <!--Override After Publish to support ClickOnce AfterPublish. Target replaces the untransformed config file copied to the deployment directory with the transformed one.-->
+  <Target Name="AfterPublish">
+    <PropertyGroup>
+      <DeployedConfig>$(_DeploymentApplicationDir)$(TargetName)$(TargetExt).config$(_DeploymentFileMappingExtension)</DeployedConfig>
+    </PropertyGroup>
+    <!--Publish copies the untransformed App.config to deployment directory so overwrite it-->
+    <Copy Condition="Exists('$(DeployedConfig)')" SourceFiles="$(IntermediateOutputPath)$(TargetFileName).config" DestinationFiles="$(DeployedConfig)" />
+  </Target>
+  <Target Name="AfterCompile" Condition="Exists('F2CSqlRunner.exe.$(Configuration).config')">
+    <!--Generate transformed app config in the intermediate directory-->
+    <TransformXml Source="F2CSqlRunner.exe.config" Destination="$(IntermediateOutputPath)F2CSqlRunner.exe.config" Transform="F2CSqlRunner.exe.$(Configuration).config" />
+    <!--Force build process to use the transformed configuration file from now on.-->
+    <ItemGroup>
+      <AppConfigWithTargetPath Remove="F2CSqlRunner.exe.config" />
+      <AppConfigWithTargetPath Include="$(IntermediateOutputPath)F2CSqlRunner.exe.config">
+        <TargetPath>F2CSqlRunner.exe.config</TargetPath>
+      </AppConfigWithTargetPath>
+    </ItemGroup>
+  </Target>
+</Project>

@@ -1,0 +1,2 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.CQRS.Queries.Test\obj\Debug\Context.CQRS.Queries.Test.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.CQRS.Queries.Test\obj\Debug\Context.CQRS.Queries.Test.csproj.CoreCompileInputs.cache

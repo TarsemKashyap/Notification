@@ -1,0 +1,9 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\bin\Debug\F2C.MAP.NOT.Context.Common.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\bin\Debug\F2C.MAP.NOT.Context.Common.pdb
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\bin\Debug\log4net.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\bin\Debug\log4net.xml
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\obj\Debug\Context.Common.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\obj\Debug\Context.Common.csproj.CoreCompileInputs.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\obj\Debug\Context.Common.csproj.CopyComplete
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\obj\Debug\F2C.MAP.NOT.Context.Common.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Common\obj\Debug\F2C.MAP.NOT.Context.Common.pdb

@@ -1,0 +1,4 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Events\obj\Debug\Context.Events.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Events\obj\Debug\Context.Events.csproj.CoreCompileInputs.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Events\obj\Debug\F2C.MAP.NOT.Context.Events.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Events\obj\Debug\F2C.MAP.NOT.Context.Events.pdb

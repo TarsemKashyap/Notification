@@ -1,0 +1,4 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.TPF.WebApi.Client\obj\Debug\TPF.WebApi.Client.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.TPF.WebApi.Client\obj\Debug\TPF.WebApi.Client.csproj.CoreCompileInputs.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.TPF.WebApi.Client\obj\Debug\F2C.MAP.NOT.TPF.WebApi.Client.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.TPF.WebApi.Client\obj\Debug\F2C.MAP.NOT.TPF.WebApi.Client.pdb

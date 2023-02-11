@@ -1,0 +1,4 @@
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PetaPoco\bin\Debug\F2C.MAP.NOT.PetaPoco.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PetaPoco\bin\Debug\F2C.MAP.NOT.PetaPoco.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PetaPoco\obj\Debug\F2C.MAP.NOT.PetaPoco.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PetaPoco\obj\Debug\F2C.MAP.NOT.PetaPoco.pdb

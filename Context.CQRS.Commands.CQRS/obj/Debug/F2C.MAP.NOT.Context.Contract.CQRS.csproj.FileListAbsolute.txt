@@ -1,0 +1,11 @@
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\bin\Debug\F2C.MAP.NOT.Context.Contract.CQRS.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\bin\Debug\F2C.MAP.NOT.Context.Contract.CQRS.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\bin\Debug\F2C.Common.Context.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\bin\Debug\F2C.Common.Logging.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\bin\Debug\F2C.MAP.NOT.Context.Common.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\bin\Debug\log4net.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\bin\Debug\F2C.MAP.NOT.Context.Common.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\bin\Debug\log4net.xml
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\obj\Debug\F2C.MAP.NOT.Context.Contract.CQRS.csprojResolveAssemblyReference.cache
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\obj\Debug\F2C.MAP.NOT.Context.Contract.CQRS.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Context.Contract.CQRS\obj\Debug\F2C.MAP.NOT.Context.Contract.CQRS.pdb

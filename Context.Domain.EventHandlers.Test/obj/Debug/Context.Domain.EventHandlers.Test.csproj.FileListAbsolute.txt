@@ -1,0 +1,2 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Domain.EventHandlers.Test\obj\Debug\Context.Domain.EventHandlers.Test.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.Domain.EventHandlers.Test\obj\Debug\Context.Domain.EventHandlers.Test.csproj.CoreCompileInputs.cache

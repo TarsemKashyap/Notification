@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8D400A2-1A4E-4438-81CD-36CE5F33EF3B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>F2C.MAP.NOT.Context.SimpleInjector</RootNamespace>
+    <AssemblyName>F2C.MAP.NOT.Context.SimpleInjector</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Dev|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA|AnyCPU'">
+    <OutputPath>bin\QA\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UAT|AnyCPU'">
+    <OutputPath>bin\UAT\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentNHibernate, Version=1.4.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentNHibernate.1.4.0.0\lib\net35\FluentNHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentValidation, Version=5.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.5.1.0.0\lib\Net40\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SimpleInjector, Version=2.5.0.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.2.5.0\lib\net40-client\SimpleInjector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SimpleInjector.Diagnostics, Version=2.5.0.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.2.5.0\lib\net40-client\SimpleInjector.Diagnostics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NotBootstrapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.Common\Context.Common.csproj">
+      <Project>{140c6d8f-67cd-4322-bbe3-a33347f16479}</Project>
+      <Name>Context.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.CQRS.Bus\Context.CQRS.Bus.csproj">
+      <Project>{e9b9fe48-45b4-41e4-be28-35237691b7fc}</Project>
+      <Name>Context.CQRS.Bus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.CQRS.Commands\Context.CQRS.Commands.csproj">
+      <Project>{996938d7-93fa-4385-b205-82e3b0deb1e8}</Project>
+      <Name>Context.CQRS.Commands</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.CQRS.Queries\Context.CQRS.Queries.csproj">
+      <Project>{a3bec136-9c2f-461a-88ad-5d9f212a9110}</Project>
+      <Name>Context.CQRS.Queries</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.Domain.EventHandlers\Context.Domain.EventHandlers.csproj">
+      <Project>{fa94b95d-1ba1-413e-9873-b821344da2a2}</Project>
+      <Name>Context.Domain.EventHandlers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.Domain.TPEventHandlers\Context.Domain.TPEventHandlers.csproj">
+      <Project>{4e31a30c-25ce-4432-aaec-39c64b09ca24}</Project>
+      <Name>Context.Domain.TPEventHandlers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.Domain\Context.Domain.csproj">
+      <Project>{2262dec7-115b-4da1-9eef-df4e58a34f12}</Project>
+      <Name>Context.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.MaS.WebApi.Client\WebApi.Client.csproj">
+      <Project>{629289f6-1c3b-42de-82d8-f3c712430dee}</Project>
+      <Name>WebApi.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.PG.WebApi.Client\Notif.WebApi.Client.csproj">
+      <Project>{69d30945-f618-4597-9db0-17c17fe3ddfa}</Project>
+      <Name>Notif.WebApi.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.TPF.WebApi.Client\TPF.WebApi.Client.csproj">
+      <Project>{8ad006fe-f633-437f-875d-b08c58972008}</Project>
+      <Name>TPF.WebApi.Client</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

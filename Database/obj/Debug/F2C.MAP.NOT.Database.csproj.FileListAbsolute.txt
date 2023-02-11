@@ -1,0 +1,17 @@
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\log4net.config
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2CSqlRunner.exe.config
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2CSqlRunner.exe.Debug.config
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2CSqlRunner.exe.Dev.config
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2CSqlRunner.exe.QA.config
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2CSqlRunner.exe.Release.config
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2CSqlRunner.exe.UAT.config
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2C.MAP.NOT.Database.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2C.MAP.NOT.Database.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2C.DB.Maintenance.Interface.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\F2CSqlRunner.exe
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\log4net.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\bin\Debug\log4net.xml
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\obj\Debug\F2C.MAP.NOT.Database.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.Database\obj\Debug\F2C.MAP.NOT.Database.pdb

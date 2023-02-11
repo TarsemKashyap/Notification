@@ -1,0 +1,2 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.SimpleInjector\obj\Debug\Context.SimpleInjector.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Context.SimpleInjector\obj\Debug\Context.SimpleInjector.csproj.CoreCompileInputs.cache

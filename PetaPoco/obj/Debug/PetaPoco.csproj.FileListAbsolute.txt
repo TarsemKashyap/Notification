@@ -1,0 +1,6 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.PetaPoco\bin\Debug\F2C.MAP.NOT.PetaPoco.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.PetaPoco\bin\Debug\F2C.MAP.NOT.PetaPoco.pdb
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.PetaPoco\obj\Debug\PetaPoco.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.PetaPoco\obj\Debug\PetaPoco.csproj.CoreCompileInputs.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.PetaPoco\obj\Debug\F2C.MAP.NOT.PetaPoco.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.PetaPoco\obj\Debug\F2C.MAP.NOT.PetaPoco.pdb

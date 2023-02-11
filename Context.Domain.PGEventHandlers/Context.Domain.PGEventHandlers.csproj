@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BCC73ADF-69E1-420E-A418-81D5859BC642}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>F2C.MAP.NOT.Context.Domain.PGEventHandlers</RootNamespace>
+    <AssemblyName>F2C.MAP.NOT.Context.Domain.PGEventHandlers</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Dev|AnyCPU'">
+    <OutputPath>bin\Dev\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mapper\PgCardPaymentMapper.cs" />
+    <Compile Include="Mapper\PgPoliPaymentMapper.cs" />
+    <Compile Include="PGPoliTransactionCompletedEventHandler.cs" />
+    <Compile Include="PGTransactionCompletedEventHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.Common\Context.Common.csproj">
+      <Project>{140C6D8F-67CD-4322-BBE3-A33347F16479}</Project>
+      <Name>Context.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.Contract.CQRS\Context.Contract.CQRS.csproj">
+      <Project>{8769E676-4919-4F68-815A-EF25C3CF793B}</Project>
+      <Name>Context.Contract.CQRS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.Domain\Context.Domain.csproj">
+      <Project>{2262DEC7-115B-4DA1-9EEF-DF4E58A34F12}</Project>
+      <Name>Context.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.Context.Events\Context.Events.csproj">
+      <Project>{31405ec3-6749-4576-8445-7838449f464e}</Project>
+      <Name>Context.Events</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\F2C.MAP.NOT.PG.WebApi.Client\Notif.WebApi.Client.csproj">
+      <Project>{69d30945-f618-4597-9db0-17c17fe3ddfa}</Project>
+      <Name>Notif.WebApi.Client</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

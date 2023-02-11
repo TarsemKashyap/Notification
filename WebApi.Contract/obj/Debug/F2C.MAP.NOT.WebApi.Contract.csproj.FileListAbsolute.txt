@@ -1,0 +1,5 @@
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\bin\Debug\F2C.MAP.NOT.WebApi.Contract.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\bin\Debug\F2C.MAP.NOT.WebApi.Contract.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\bin\Debug\F2C.Common.WebAPI.Contract.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\obj\Debug\F2C.MAP.NOT.WebApi.Contract.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\obj\Debug\F2C.MAP.NOT.WebApi.Contract.pdb

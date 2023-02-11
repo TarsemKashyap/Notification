@@ -1,0 +1,4 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Database\obj\Debug\Database.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Database\obj\Debug\F2C.MAP.NOT.Database.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.Database\obj\Debug\F2C.MAP.NOT.Database.pdb

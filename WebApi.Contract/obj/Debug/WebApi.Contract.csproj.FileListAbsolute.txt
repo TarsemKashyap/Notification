@@ -1,0 +1,4 @@
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\obj\Debug\WebApi.Contract.csproj.AssemblyReference.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\obj\Debug\WebApi.Contract.csproj.CoreCompileInputs.cache
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\obj\Debug\F2C.MAP.NOT.WebApi.Contract.dll
+F:\payment code\NOT\_trunk\F2C.MAP.NOT.WebApi.Contract\obj\Debug\F2C.MAP.NOT.WebApi.Contract.pdb

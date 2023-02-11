@@ -1,0 +1,11 @@
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\bin\Debug\F2C.MAP.NOT.PG.WebApi.Client.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\bin\Debug\F2C.MAP.NOT.PG.WebApi.Client.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\bin\Debug\F2C.Common.Rest.Client.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\bin\Debug\F2C.MAP.NOT.Context.Common.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\bin\Debug\RestSharp.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\bin\Debug\Newtonsoft.Json.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\bin\Debug\F2C.MAP.NOT.Context.Common.pdb
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\bin\Debug\RestSharp.xml
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\obj\Debug\F2C.MAP.NOT.PG.WebApi.Client.csprojResolveAssemblyReference.cache
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\obj\Debug\F2C.MAP.NOT.PG.WebApi.Client.dll
+D:\VSO2\NOT\_trunk\F2C.MAP.NOT.PG.WebApi.Client\obj\Debug\F2C.MAP.NOT.PG.WebApi.Client.pdb
